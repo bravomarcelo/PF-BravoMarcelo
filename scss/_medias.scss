@@ -1,0 +1,101 @@
+@import "variables";
+
+@include tablet{
+    .titParche{
+        font-size: 30px;
+        padding: 60px 60px;
+    }
+
+    .logosF {
+        flex-direction: column !important;
+        align-items: center  !important;
+        gap: 1rem !important;
+        img{
+        max-width: 70%;
+        margin-bottom: 0 !important;
+
+        }
+        >img {
+            margin-bottom: -4rem;
+        }
+    }
+    .dataImg {
+        h4, h2{ 
+            font-size: 3rem !important;
+            text-align: center;
+    
+        }
+    }
+    .principalTit {
+        font-size: 40px !important;
+    }
+    .titNoticias {
+        font-size: 30px !important;
+    }
+    .noticiasContainer {
+        p {
+            font-size: 10px;
+        }
+    }
+    .celebracionContainer {
+        p {
+            font-size: 10px;
+        }
+    }
+    .memo {
+        h5 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+}
+@include mobile {
+    
+    .heroesTit {
+        padding-top: 4rem;
+    }
+    .galeria {
+        align-items: center !important;
+        padding: 20px 30px;
+    
+      
+    }
+    .principalTit {
+        h1{ 
+            font-size: 2rem !important;
+            padding-top: 200px;
+    
+        }
+    }
+}
+
+
+@include quiebreBootstrap {
+.collapse {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dataHeader {
+    h1{ 
+        font-size: 3rem !important;
+        justify-content: center !important;
+        text-align: center;
+        visibility: hidden;
+    }
+}
+
+.headerIndex {
+    height: 100% !important;
+
+
+}
+
+.navbar-brand {
+    img {
+        height: 6rem !important;
+
+    }
+}
+
+}

@@ -1,0 +1,50 @@
+.bodyContacto {
+    background-image: url(../acces/img/form3.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+}
+form {
+    width: 450px;
+    max-width: 80%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 150px;
+    border-radius: 7px;
+    margin-bottom: 60px;
+    h2 {
+        color: white;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    input, textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+    }
+    .textarea {
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+    #boton {
+        background-color: rgb(184, 16, 16);
+        color: white;
+        padding: 10px;
+
+    }
+    #boton:hover {
+        cursor: pointer;
+
+    }
+}
+

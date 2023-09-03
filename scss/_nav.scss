@@ -1,0 +1,52 @@
+@import "variables";
+
+
+.headerContainer {
+  height: 8rem;
+  max-width: 100vw;
+  overflow: hidden;
+  .navbar {
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 6rem;
+  .navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+  }
+  .hambur {
+    color:$color-primary;
+    background-color: transparent;
+  }
+
+
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      .active {
+        color: $color-primary !important;
+      }
+    }
+    a {
+      color: white;
+      font-size: 1.3rem;
+      font-weight: 550;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    li:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+      a {
+        color: rgb(231, 82, 82) !important;
+      }
+    }
+    .navbar-brand {
+      img {
+        height: 7.5rem;
+      }
+    }
+  }
+}
